@@ -5,9 +5,10 @@
     text-align: left;
 }
 h1 {
-    background-color: rgb(3, 216, 205);
+    background-color: rgb(1, 133, 126);
     color: rgb(255, 255, 255);
     font-family: 'Arial', Arial, monospace; 
+    text-align: center;
 }
 
 h2 {
