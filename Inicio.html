@@ -3,19 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NOS </title>
     <link rel="stylesheet" href="C:\Users\Usuario\Desktop\ZAJ\FRONTEND\Curso-Front-End--Entrega-1\Inicio.css">
 </head>
 
 <body>
     <header>
         <h1> NOS </h1>
-        <ul>
-            <li> <a href="inicio.html"> Inicio </a> </li>
-            <li> <a href="cuidados.html"> Cuidados </a> </li>
-            <li> <a href="contacto.html"> Contacto </a> </li>
-         </ul>
-
     </header>
     <main>
         <h2 id="descripcion">
@@ -23,6 +17,11 @@
         </h2> 
         <h2> Acerca de Nos</h2>
         <p> NOS es una plataforma que busca formentar la inclusión de personas con discapacidades auditivas y visuales promoviendo la divulgación de información para incorporar nuevos hábitos y generar pequeños cambios que impacten significativamente en la sociedad.</p>
+        <ul>
+            <li> <a href="inicio.html"> Inicio </a> </li>
+            <li> <a href="Auditivas.html"> Cuidados </a> </li>
+            <li> <a href="Visuales.html"> Contacto </a> </li>
+         </ul>
         <h2> Auditivas</h2>
         <p> Hipoacusia es la incapacidad para oír sonidos en uno o en ambos oídos. Los bebés pueden perder toda su capacidad auditiva o solo parte de ella.</p>
         <h3> Causas</h3>
@@ -32,7 +31,33 @@
         <h4> Audífonos</h4>
         <h4> Implantes Cocleares</h4>
         <h4> Sistemas de Audicipon Osteointegrados</h4>
+
     <h2> ¿Tenes dudas? Contactanos. </h2>
+    <div>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" placeholder="Ingrese su nombre"><br><br> 
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" name="apellido"><br><br>
+
+            <label for="pregunta">Pregunta:</label>
+            <textarea name="pregunta"></textarea><br><br>
+
+            <h4>Motivos: </h4>
+            <input type="radio" name="Motivo 1" value="1">
+            <label for="grupo1">Fotos </label><br>
+            <input type="radio" name="Motivo 2" value="2">
+            <label for="grupo2">Ilustraciones </label><br><br>
+
+            <label for="fecha">Fecha:</label>
+            <input type="date" name="fecha"><br><br>
+
+            <input type="submit" value="Enviar"> <!-- Tip: si no queremos que se refresque la pagina al enviar, podemos poner type=button -->
+            <input type="reset" value="Reset">
+        </form>
+    </div>
+    </main>
 </body>
 
 </html>
