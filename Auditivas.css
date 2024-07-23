@@ -7,11 +7,18 @@ h2 {
     font-family: 'Arial', Arial, monospace;
     text-align: left;}
 
-h3 {font-family: 'Arial', Arial, monospace;
+h3,h4{font-family: 'Arial', Arial, monospace;
     }
+  
 p{
     font-family: 'Arial', Arial, monospace;
     font-size: 15px;
     text-align: center;
+}
+
+ul{
+    font-family: 'Arial', Arial, monospace;
+    font-size: 15px;
+    text-align: left;
 }
 
