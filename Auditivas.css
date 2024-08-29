@@ -4,6 +4,7 @@ h1{
     font-family: 'Arial', Arial, monospace;
     text-align: center;
 }
+body {background-color: rgb(226, 253, 252);}
 h2 {color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
     text-align: left;}

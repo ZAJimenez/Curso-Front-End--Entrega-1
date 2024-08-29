@@ -6,13 +6,13 @@ h1{
 }
 body {background-color: rgb(226, 253, 252);}
 
-h2 {color: rgb(20, 170, 163);
+h2 {color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
     text-align: left;}
 
 h4 {color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
-    }
+    text-align: left; }
 
 h3 { color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
@@ -21,7 +21,7 @@ h3 { color: rgb(0, 100, 95);
 p{
     font-family: 'Arial', Arial, monospace;
     font-size: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 ul{
@@ -29,8 +29,7 @@ ul{
     font-size: 15px;
     text-align: left;
 }
-
-#links{
-    font-family: 'Arial', Arial, monospace;
+#video-refraccion
+{ 
     text-align: center;
 }
