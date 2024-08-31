@@ -2,41 +2,52 @@
 #descripcion {
     color: rgb(0, 0, 0);
     font-family: 'Arial', Arial, monospace;
-    font-size: 25px;
-    text-align: left;
+    font-size: 35px;
+    text-align: center;
 }
 body {background-color: rgb(226, 253, 252);}
 h1 {
     background-color: rgb(1, 133, 126);
     color: rgb(255, 255, 255);
     font-family: 'Arial', Arial, monospace; 
+    font-size: 50px;
     text-align: center;
 }
 
 h2 {
     color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
+    font-size: 35px;
     text-align: center;
 }
-h3 {
+h3 {color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
+    font-size: 25px;
     text-align: center;}
 
-h4 {font-family: 'Arial', Arial, monospace;
-    }
+h4 {color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;
+    font-size: 19px;}
 p{
     font-family: 'Arial', Arial, monospace;
-    font-size: 15px;
+    font-size: 18px;
     text-align: center;
 }
 
-#formulario{
+#sesion{
     font-family: 'Arial', Arial, monospace;
-
     text-align: center;
 }
 #links{
     font-family: 'Arial', Arial, monospace;
-
     text-align: left;
+}
+#boton-enviar, #boton-reset{
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;}
+#Comentarios {
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;
+    font-size: 40px;
 }

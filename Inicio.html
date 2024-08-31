@@ -8,12 +8,11 @@
     <style>
        #descripcion {
             display: inline-flex;
-            align-items: center; /* Alinea verticalmente la imagen y el texto */
-            text-align: center; /* Opcional: centra el texto dentro del contenedor */
-        }
+            align-items: center; 
+            text-align: center; }
 
         #descripcion img {
-            margin-right: 200px; /* Espacio entre la imagen y el texto */
+            margin-right: 200px; 
         }
     </style>
 </head>
@@ -32,29 +31,35 @@
         <ul id="links">
             <li> <a href="Auditivas.html"> Discapacidades Auditivas </a> </li>
             <li> <a href="Visuales.html"> Discapacidades Visuales </a> </li>
-         </ul>
+        </ul>
+        <main>
+            
+        </header>
         
-    <h2> ¿Tenes dudas? Contactanos. </h2>
-    <div>
-        <form id="formulario">
-            <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" placeholder="Ingrese su nombre"><br><br> 
+            <h2> Experiencias </h2>
+            <p id="Comentarios"> <i>"Me encanto! Justo lo que necesitaba!"</i></p>
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" name="apellido"><br><br>
+        <h4> ¿Deseas contribuir con aportes? ¿Tienes dudas o deseas contar tu experiencia? </h4>   
+        <h3> Te leemos. </h3>
 
-            <label for="pregunta">Pregunta:</label>
-            <textarea name="pregunta"></textarea><br><br>
+    <h4> Iniciar sesión </h4>
+    <div id="sesion"> <label for="mail">Mail:</label>
+        <input type="text" id="mail-variable" name="mail" placeholder="Ingrese correo electrónico"><br><br>
+
+        <label for="Contraseña">Contraseña:</label>
+        <input type="text" id="psw-variable" name="contraseña" placeholder="Ingrese contraseña"> <br><br>
+        
+    </div> 
+    <div> 
+        <h4> ¿No tienes una cuenta? ¡Regístrate y sé parte del cambio!</h4>
+    </div>
+    <input type="button" id="boton-enviar" value="Enviar"> 
 
     
-            <label for="fecha">Fecha:</label>
-            <input type="date" name="fecha"><br><br>
-
-            <input type="submit" value="Enviar"> <!-- Tip: si no queremos que se refresque la pagina al enviar, podemos poner type=button -->
-            <input type="reset" value="Reset">
-        </form>
-    </div>
     </main>
+    
+    <input type="button" id="boton-registrar" value="Regístrate">
+    <script src="contacto.js"> </script>
 </body>
 
 </html>
