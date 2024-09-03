@@ -1,0 +1,30 @@
+body {background-color: rgb(226, 253, 252);}
+h1 {
+    background-color: rgb(1, 133, 126);
+    color: rgb(255, 255, 255);
+    font-family: 'Arial', Arial, monospace; 
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;
+}
+h3 {color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;}
+
+h4 {color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;}
+p{
+    font-family: 'Arial', Arial, monospace;
+    font-size: 15px;
+    text-align: center;
+}
+#registro {
+    color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;
+}
