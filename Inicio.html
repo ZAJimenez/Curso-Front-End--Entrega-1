@@ -5,16 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOS </title>
     <link rel="stylesheet" href="Inicio.css">
-    <style>
-       #descripcion {
-            display: inline-flex;
-            align-items: center; 
-            text-align: center; }
-
-        #descripcion img {
-            margin-right: 200px; 
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -23,13 +14,12 @@
     </header>
     <main>
         <h2 id="descripcion">
-           <p> Para un mundo mejor.</p> 
-           <img width="90" height="95" src="blind-logo.png" alt="logo">
+           <img id="logo" width="105" height="115" src="blind-logo.png" alt="logo">
         </h2> 
         <h2> Acerca de Nos</h2>
         <p> <b>NOS</b> es una plataforma que busca formentar la inclusión de personas con discapacidades auditivas y visuales promoviendo la divulgación de información para incorporar nuevos hábitos y generar pequeños cambios que impacten significativamente en la sociedad.</p>
         <ul id="links">
-            <li> <a href="Auditivas.html"> Discapacidades Auditivas </a> </li>
+
             <li> <a href="Visuales.html"> Discapacidades Visuales </a> </li>
         </ul>
         <main>
@@ -50,16 +40,21 @@
         <input type="text" id="psw-variable" name="contraseña" placeholder="Ingrese contraseña"> <br><br>
         
     </div> 
+    <div id="botones1">
+        <input type="button" id="boton-enviar" value="Enviar"> 
+    </div>
     <div> 
         <h4> ¿No tienes una cuenta? ¡Regístrate y sé parte del cambio!</h4>
     </div>
-    <input type="button" id="boton-enviar" value="Enviar"> 
-
+    <div id="botones2">
+        <input type="button" id="boton-registrar" value="Regístrate">
+    </div>
+    
     
     </main>
     
-    <input type="button" id="boton-registrar" value="Regístrate">
     <script src="contacto.js"> </script>
+    <script src="Aportes.js"> </script>
 </body>
 
 </html>

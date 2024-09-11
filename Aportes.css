@@ -1,0 +1,62 @@
+body {background-color: rgb(226, 253, 252);}
+#pregunta{
+
+    font-family: 'Arial', Arial, monospace;
+
+    text-align: center;}
+
+#enviar,#volver{
+
+    font-family: 'Arial', Arial, monospace;
+
+    text-align: center;}
+
+#mensaje,#mensaje2{
+    font-family: 'Arial', Arial, monospace;
+    font-size: 30px;
+    text-align: center;
+}
+h1 {
+    background-color: rgb(1, 133, 126);
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-family: 'Arial', Arial, monospace; 
+    text-align: center;
+}
+
+h2 {
+    color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    font-size: 45px;
+    text-align: center;
+}
+h3 {color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;}
+
+h4 {color: rgb(0, 100, 95);
+    font-family: 'Arial', Arial, monospace;
+    text-align: center;}
+p{
+    font-family: 'Arial', Arial, monospace;
+ 
+    text-align: center;
+}
+
+#pregunta,#formulario{
+
+    font-family: 'Arial', Arial, monospace;
+
+    text-align: center;}
+
+#botones,#enviar,#volver{
+
+    font-family: 'Arial', Arial, monospace;
+
+    text-align: center;}
+
+#mensaje,#mensaje2{
+    font-family: 'Arial', Arial, monospace;
+    font-size: 30px;
+    text-align: center;
+}

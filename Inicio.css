@@ -2,22 +2,27 @@
 #descripcion {
     color: rgb(0, 0, 0);
     font-family: 'Arial', Arial, monospace;
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
 }
+#logo img {
+    max-width: 100%; 
+    height: auto;
+}
+ 
 body {background-color: rgb(226, 253, 252);}
 h1 {
     background-color: rgb(1, 133, 126);
     color: rgb(255, 255, 255);
     font-family: 'Arial', Arial, monospace; 
-    font-size: 50px;
+    font-size: 65px;
     text-align: center;
 }
 
 h2 {
     color: rgb(0, 100, 95);
     font-family: 'Arial', Arial, monospace;
-    font-size: 35px;
+    font-size: 45px;
     text-align: center;
 }
 h3 {color: rgb(0, 100, 95);
@@ -43,7 +48,7 @@ p{
     font-family: 'Arial', Arial, monospace;
     text-align: left;
 }
-#boton-enviar, #boton-reset{
+#botones1, #botones2{
     font-family: 'Arial', Arial, monospace;
     text-align: center;}
 #Comentarios {
